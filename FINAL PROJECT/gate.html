@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate</title>
+    
+  <style>
+   body {
+            background-attachment: fixed;
+            background-color: white;
+            font-family:  'Segoe UI';
+            padding: auto ;
+            margin: auto;
+            height: 1000px;
+            width: auto;
+        }
+      
+
+        .navbar{
+  background-color:#FCD5CE;
+  overflow:hidden;
+  height:63px;
+  width: 1262px;
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#E9C3BD;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:white;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+ 
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+
+}
+ul.image-gallery {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+ul.image-gallery:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+ul.image-gallery li {
+  list-style: none;
+  display: block;
+  float: right;
+  padding-right: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ul.image-gallery li img {
+  display: block;
+}
+
+  </style>
+<nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <span class="navbar-nav" >
+        <a href="./sign.html" style="color: white;text-decoration: none;" >تسجيل الدخول </a>
+           </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="mainpage.html">الصفحة الرئيسية</a>
+    <a href="acc.html">إعدادات الحساب</a>
+    <a href="mailto:globalwarning@gmail.com">تواصل معنا</a>
+    <a href="faq.html">أسئلة شائعة</a>
+    <a href="settings.html">الإعدادات</a>
+</div>  
+<img src="pink.JPG" style="height: 471.5px;padding-left: -9px;"  >
+</head>
+<body>
+  
+    <h1 style="text-align:right; color :#8c2f39 ; padding-right:17px;"> !مرحباً بكم</h1>
+    <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;"> 
+      :نبذة
+    <br> 
+ 
+   أو تحذير عالمي هو موقع توعوي عن البيئة و قضاياها و آثار تغير  Global Warning
+  <br> المناخ على الفرد و المجتمع , و إمكانية تقليل هذه الآثار
+ على المدى القريب و البعيد</h3>
+<br>
+<br>
+<a href="./sign.html" style="float: left; padding-left: 900px; "><svg xmlns="http://www.w3.org/2000/svg" width="179" height="55" viewBox="0 0 179 55">
+  <g id="Group_1" data-name="Group 1" transform="translate(-3 -494)">
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(3 494)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="179" height="55" rx="27.5" fill="#fcd5ce"/>
+    </g>
+    <text id="أنظم_إلينا" data-name="أنظم إلينا" transform="translate(36 534)" fill="#fff" font-size="30" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">أنظم إلينا</tspan></text>
+  </g>
+</svg>
+</a>
+
+<br>
+
+<h1 style="text-align:right; color :#8c2f39 ; padding-right:17px;"> 
+  <br>
+  عن المؤسسة</h1>
+<!-- self prmoting  -->
+<br>
+<h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;"> 
+ ملاك الحجيلان , طالبة في الصف الصف العاشر في فصول الموهبة و الإبداع التابعة لمركز صباح"
+ <br>
+ الأحمد للموهبة و الإبداع , لدي العديد من الإنجازات في المجال العلمي و لطالما رغبت بتعلم البرمجة كونها لغة
+ <br>
+  المستقبل و كانت مبادرة الكويت تبرمج أفضل خيار , أحب القراءة و أملك مدونة لإعطاء أرائي حول الكتب التي أقرأها,
+  <br>
+  أحب كويتنا الحبيبة جداً لذلك أحرص على تثقيف أبنائها أهمية الاستدامة و مخاطر تغيرات المناخ و ما تواجهه البيئة من
+  <br> 
+  " تحديات و مشاكل لنقللها لأن إذا الأن هو أفضل وقت للبدء  </h3>
+  <a href="https://www.instagram.com/malak.diary/?hl=en">أضغط هنا لزيارة مدونتي </a>
+<br>
+<br>
+
+<div style="background-color: #f9f9f9;">
+<ul class="image-gallery">
+  <li><a href="./starter.html" ><img src="./Images/earth (2).png " style="width:200px;"></a></li>
+  <li><a href="./sustainability.html" ><img src="./Images/plant.png" style="width:200px;"></a></li>
+  <li><a href="./shop.html"  ><img src="./Images/shopping-bag (1).png" style="width:200px;"></a></li>
+  <li><a href="./support.html"  ><img src="./Images/followers.png" style="width:200px;"></a></li>
+</ul></div>
+
+
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '250px';
+          document.getElementById('main').style.marginLeft = '250px';
+        }
+    
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+      </script>
+      
+      <footer style="padding-top: 100px;">
+        <center>الحقوق محفوظة
+          <br> Copyright @ Global Warning 2020
+          <br>
+        </center>
+      </footer>
+</body>
+</html>

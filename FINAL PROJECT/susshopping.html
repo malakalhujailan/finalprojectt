@@ -1,0 +1,239 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+  <style>
+   body {
+            background-attachment: fixed;
+            background-color: white;
+            font-family:  'Segoe UI';
+            padding: auto ;
+            margin: auto;
+            height: 1000px;
+            width: auto;
+        }
+      
+
+        .navbar{
+  background-color:#FCD5CE;
+  overflow:hidden;
+  height:63px;
+  width: 1262px;
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  background-color:#E9C3BD;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:white;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+ 
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+
+}
+
+.img1 {
+		position: absolute;
+		left:320px;
+		overflow: visible;
+	}
+  .img2 {
+		position: absolute;
+		left: 525px;
+		overflow: visible;
+	}
+  
+  .img20 {
+		position: absolute;
+		left: 530px;
+		overflow: visible;
+	}
+  .img3
+  {
+		position: absolute;
+		right: 330px;
+		overflow: visible;
+	}
+
+  
+  </style>
+<nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <span class="navbar-nav" >
+      <img src="logo.png" style="height: 65px; " >
+           </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="mainpage.html">الصفحة الرئيسية</a>
+    <a href="acc.html">إعدادات الحساب</a>
+    <a href="mailto:globalwarning@gmail.com">تواصل معنا</a>
+    <a href="faq.html">أسئلة شائعة</a>
+    <a href="settings.html">الإعدادات</a>
+</div>  
+<img src="pinkk.jpg" style="height: 164.5px;padding-left: -9px;"  >
+</head>
+<body>
+    <center> <img src="./Images/cart.png" style="width: 200px;"></center>
+    <center> <h5 style="text-align:center; color: #8c2f39;">الاستدامة و التسوق</h5></center>
+    <br>
+    <br>
+    
+
+    <h1 style="text-align:right; color :#8c2f39 ; padding-right:17px;">تحديات التسوق المستدام</h1>
+    
+    <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;"> 
+    في هذا الفرع سنتحدث عن صعوبات التسوق المستدام و كيفية تجنبها , أول تحدي هو اعتماد
+     الأكياس البلاستيكية
+     <br>
+      في أكثر من 70% من المحلات حول العالم لرخصها , و أن كانت ورقية في معظم الوقت 
+    تحتوي على نسب كبيرة من 
+    <br>
+    البلاستيك أو استخدام الصمغ البلاستيكي في عملية صنع هذه الأكياس المجرم بحق البيئة 
+    و طبعاً لا ننسى التغليف
+    <br>
+     البلاستيك المبالغ به بقناع الحفاظ على جودة الذي يمكن الاستغناء عنه ببساطة
+    باستخدام التغليف الورقي المعاد
+    <br>
+     استخدامه أما التحديات الثانية تكمن في صعوبة وجود
+     مقتنيات مهمة بطريقة مستدامة و تناول الطعام بطريقة
+     <br> لا تخالف مبدأ الاستدامة 
+</h3>
+<br>
+<br>
+    <h1 style="text-align:right; color :#8c2f39 ; padding-right:17px;">   :التسوق بطريقة مستدامة</h1>
+    
+    <div style="background-color: #f9f9f9;">
+    <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+        لمحبي الكتب , شراء كتب مستعملة من الحسابات المحلية
+         <br>
+        <a href="./support.html">أضغط هنا للذهاب لصفحة دعم الحسابات المحلية</a>
+    </h3>
+    </div>
+       <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+        إحضار أكياس من المنزل أو استخدام حقائب قماشية و رفض الأكياس البلاستيكية و التغليف البلاستيكي
+        </h3>
+        
+        
+    <div style="background-color: #f9f9f9;">
+      <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+        " أسال نفسك قبل شراء قطعة الثياب " هل سأرتديه ثلاثون مره على الأقل؟ 
+        <br>
+        و إذا كانت الإجابة نعم فقم بشراءه و استثمر و تبرع بالقطع التي لا ترتديها للجان الخيرية 
+        <br> 
+        أو وزعها على الأقرباء و الأصدقاء
+        </h3>
+        </div>
+        <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+      عوضاً عن شراء منتجات العناية باهضة الثمن , اصنع مستحضرات تجميلية طبيعية في المنزل
+        </h3>
+      
+   
+      
+    <div style="background-color: #f9f9f9;">
+      <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+       شراء منتجات عناية البشرة ذات تغليف صديق للبيئة من زجاج أو غيره مثل المتوفرة في
+     <br>
+     <a href="https://kw.loccitane.com/homepage?gclid=CjwKCAjwjLD4BRAiEiwAg5NBFhv1QZqsBUbVFMFmLE64Gn9lMw13QjR2ec9Efv4P9fYvRp7mP8SLUBoCTnsQAvD_BwE&lang=ar_KW">
+    موقع و محلات لوكستيان</a>
+    <br>
+    <a href="https://uk.lush.com/">موقع و محلات لّش</a> </div></h3>
+   
+    <h3 style="text-align:right; color :#8c2f39 ; padding-right:45px;">
+    عند تناول الطعام في مطعمك المفضل أرفض استخدام الأواني البلاستيكية و أحضر أواني معدنية منزلية عوضاً عن ذلك
+    </h3> 
+ 
+    
+    <a href="./sustainability.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="231" height="60" viewBox="0 0 231 60" >
+            <g id="Group_1" data-name="Group 1" transform="translate(417 -127)">
+              <rect id="Rectangle_2" data-name="Rectangle 2" width="231" height="60" rx="30" transform="translate(-417 127)" fill="#fcd5ce"/>
+              <text id="العودة_لصفحة_الاستدامة" data-name="العودة لصفحة الاستدامة" transform="translate(-397 141)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22">العودة لصفحة الاستدامة</tspan></text>
+            </g>
+          </svg></a>
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '250px';
+          document.getElementById('main').style.marginLeft = '250px';
+        }
+    
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+      </script>
+      <footer style="padding-top: 100px;">
+        <center>الحقوق محفوظة
+          <br> Copyright @ Global Warning 2020
+          <br>
+        </center>
+      </footer>
+</body>
+</html>

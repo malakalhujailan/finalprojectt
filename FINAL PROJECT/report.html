@@ -1,0 +1,147 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a problem</title>
+  <style>
+   body {
+            background-attachment: fixed;
+            background-color: white;
+            font-family:  'Segoe UI';
+            padding: auto ;
+            margin: auto;
+            height: 1000px;
+            width: auto;
+        }
+      
+
+        .navbar{
+  background-color:#FCD5CE;
+  overflow:hidden;
+  height:63px;
+  width: 1262px;
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+ 
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding-left: 1120px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #FCD5CE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #E9C3BD;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+label{
+    padding-left: 1135px;
+}
+  
+  </style>
+<nav class="navbar">
+
+    <span class="navbar-nav" >
+      <img src="logo.png" style="height: 65px; " >
+           </span>
+  </nav>
+
+</div>  
+<img src="pinkk.jpg" style="height: 164.5px;padding-left: -9px;"  >
+</head>
+<body>
+    <center> <img src="./Images/problem.ico" style="width: 200px;">
+   
+   
+  <h1>إبلاغ عن مشكلة</h1></center>
+  <div>
+    <form >
+      <label for="name"> الأسم</label>
+      <input type="text" id="name" name="name" placeholder="...الأسم الكامل هنا">
+  
+      <label for="emil">البريدالإلكتروني</label>
+      <input type="text" id="email" name="email" placeholder="...البريد الإلكتروني هنا">
+  
+      <label for="problem">اختر مشكلتك</label>
+      <select id="problem" name="problem">
+        <option value="problem">اختر مشكلتك</option>
+        <option value="username">نسيت اسم الحساب</option>
+        <option value="password">نسيت الرمز السري</option>
+        <option value="password">أحدى الصفحات لا تعمل</option>
+        <option value="password">...أخرى</option>
+        
+      </select>
+    <input type="submit" value="أرسل">
+    </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <center>
+  <h5>شكراً جزيلاً! سيتواصل معكم فريقنا بأقرب وقت ممكن </h5>
+</center>
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '250px';
+          document.getElementById('main').style.marginLeft = '250px';
+        }
+    
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+      </script>
+      <footer style="padding-top: 100px;">
+        <center>الحقوق محفوظة
+          <br> Copyright @ Global Warning 2020
+          <br>
+        </center>
+      </footer>
+</body>
+</html>

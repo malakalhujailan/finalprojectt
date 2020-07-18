@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+  <style>
+   body {
+            background-attachment: fixed;
+            background-color: white;
+            font-family:  'Segoe UI';
+            padding: auto ;
+            margin: auto;
+            height: 1000px;
+            width: auto;
+        }
+      
+
+        .navbar{
+  background-color:#FCD5CE;
+  overflow:hidden;
+  height:63px;
+  width: 1262px;
+}
+
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  background-color:#E9C3BD;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:white;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+ 
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+
+}
+
+  
+  </style>
+<nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <span class="navbar-nav" >
+      <img src="logo.png" style="height: 65px; " >
+           </span>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="mainpage.html">الصفحة الرئيسية</a>
+    <a href="acc.html">إعدادات الحساب</a>
+    <a href="mailto:globalwarning@gmail.com">تواصل معنا</a>
+    <a href="faq.html">أسئلة شائعة</a>
+    <a href="settings.html">الإعدادات</a>
+</div>  
+<img src="pinkk.jpg" style="height: 164.5px;padding-left: -9px;"  >
+</head>
+<body>
+    
+<center> <img src="./Images/shopping-bag (1).png" style="width: 200px;"></center>
+<center> <h5 style="text-align:center; color: #8c2f39;">منتجات صديقة للبيئة</h5></center>
+<br>
+<br>
+
+<center>
+<table>
+  <table style="background-color: #f6f6f6;border: white;">
+  <tr>
+    <td>
+<a href=" https://www.amazon.com/Reusable-Remover-Eco-Friendly-Natural-Cleansing/dp/B07SRXVJGW/ref=sxin_7_ac_d_rm?ac_md=0-0-ZWNvIGZyaWVuZGx5IHByb2R1Y3Rz-ac_d_rm&crid=C0V6X6AN8OG3&cv_ct_cx=eco+friendly+products&dchild=1&keywords=eco+friendly+products&pd_rd_i=B07SRXVJGW&pd_rd_r=a48c4b2c-a464-4e41-8e07-5ffa21e622b3&pd_rd_w=izFbP&pd_rd_wg=X3o9u&pf_rd_p=e3dc9e0c-9eab-4c3e-b43a-ba36f8522e14&pf_rd_r=W2V9JRTWQ1M2WCDPHEEX&psc=1&qid=1594847024&sprefix=ec%2Caps%2C335&sr=1-1-12d4272d-8adb-4121-8624-135149aa9081"> 
+  <img src="./Images/product1.jpg" style="height: 150px;"><h5>أدوات إزالة مكياج صديقة للبيئة </h5> </a> </td>
+  <td>
+<a href=" https://wellearthgoods.com/collections/100-plastic-free/products/unpaste-tooth-care-tablets">
+  <img src="./Images/product2.jpg " style="height:150px;"><h5>أقراص معجون أسنان صديقة للبيئة </h5></a></td>
+</tr>
+<tr>
+  <td>
+    <a href="https://www.iherb.com/pr/The-Dirt-Bamboo-Toothbrush-with-Charcoal-Bristles-1-Adult-Toothbrush/82633?gclid=Cj0KCQjw0rr4BRCtARIsAB0_48Mqgs4Xwr2XOsYKbri2W635AT95hORYIaRpL0_uRw6wzBg-Ig3NXjUaArTxEALw_wcB&gclsrc=aw.ds ">
+      <img src="./Images/product5.jpg" style="height: 150px;"><h5>فرش أسنان من بامبو </h5>
+    </a>
+  </td>
+  
+  <td>
+    <a href="https://cariuma.com/products/ibi-off-white-knit-sneaker-women?variant=29426674597962 ">
+      <img src="./Images/product3.png" style="height: 150px;"><h5>أحذية صديقة للبيئة </h5>
+    </a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://www.amazon.com/Stasher-Silicone-Reusable-Storage-Stand-Up/dp/B07RCP7WCH?tag=179281-ecofriendlyproducts-20 ">
+      <img src="./Images/product4.jpg" style="height: 150px;"><h5>أكياس تخزين طعام </h5>
+    </a>
+  </td>
+  
+  <td>
+    <a href="https://pelacase.com/ ">
+      <img src="./Images/product6.png" style="height: 150px;"><h5>غطاء هاتف صديق للبيئة </h5>
+    </a>
+  </td>
+</tr><tr>
+  <td>
+    <a href="https://www.amazon.com/Bees-Wrap-Assorted-Sustainable-Alternative/dp/B0126LMDFK?tag=179281-ecofriendlyproducts-20 ">
+      <img src="./Images/product7.jpg" style="height: 150px;"><h5> أوراق شمع للتغليف</h5>
+    </a>
+  </td>
+  
+  <td>
+    <a href="https://www.amazon.com/BULUH-STRAWS-HAND-CRAFTED-ALTERNATIVE-STAINLESS/dp/B01J3DBDBO/ref=as_li_ss_tl?s=home-garden&ie=UTF8&qid=1524517764&sr=1-1&keywords=Bamboo+Drinking+Straw&linkCode=sl1&tag=theworpur-20&linkId=b9eb6a9c9d1d0cedeac18825d8dfc225 ">
+      <img src="./Images/product8.jpg" style="height: 150px;"><h5> أعواد شرب من البامبو</h5>
+    </a>
+  </td>
+</tr><tr>
+  <td>
+    <a href="
+    https://www.amazon.com/GOGRS-Biodegradable-Refillable-Natural-Eco-Friendly/dp/B07WXKWDK8/ref=as_li_ss_tl?dchild=1&keywords=biodegradable+dental+floss&qid=1594186620&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE2RTJFSTBYNzg0VU4mZW5jcnlwdGVkSWQ9QTAyMDQ2NjEzTllSUVMyNkwyQzRSJmVuY3J5cHRlZEFkSWQ9QTAxNDEzNTkzTkZLUks1MlJCQjcyJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=sl1&tag=theworpur-20&linkId=e01a32308dd3b7d2137d60b69b04baef&language=en_US">
+      <img src="./Images/product9.jpg" style="height: 150px;"><h5>خيط تنظيف أسنان قابل للتحلل </h5>
+    </a>
+  </td>
+  
+  <td>
+    <a href="https://yogademocracy.com/?rfsn=1285185.cbe8e5&utm_source=refersion&utm_medium=affiliate&utm_campaign=1285185.cbe8e5">
+      <img src="./Images/product10.jpg" style="height: 150px;"><h5> بنطال يوجا صديق للبيئة</h5>
+    </a>
+  </td>
+</tr><tr>
+  <td>
+    <a href="https://www.amazon.com/s?k=Ethique+Eco-Friendly+Solid+Face+Cream&language=en_US&linkCode=sl2&linkId=7d6c39c039e329363c4e9d9e99876313&tag=theworpur-20&ref=nb_sb_noss_2">
+      <img src="./Images/product11.jpg" style="height: 150px;"><h5>صابونة غسيل وجه صديقة للبيئة </h5>
+    </a>
+  </td>
+  <td>
+    <a href="https://www.amazon.com/Planet-Reusable-Grocery-Shopping-Bags/dp/B00H22NF1U/ref=as_li_ss_tl?ie=UTF8&qid=1524520349&sr=8-3&keywords=reusable+grocery+bags&linkCode=sl1&tag=theworpur-20&linkId=7182757ba39be3d78cd171402a45f010">
+      <img src="./Images/product12.jpg" style="height: 150px;"><h5> حقيبة تسوق صديقة للبيئة</h5>
+    </a>
+  </td>
+</tr>
+</table></center>
+    <script>
+        function openSlideMenu(){
+          document.getElementById('side-menu').style.width = '250px';
+          document.getElementById('main').style.marginLeft = '250px';
+        }
+    
+        function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0';
+          document.getElementById('main').style.marginLeft = '0';
+        }
+      </script>
+      <footer style="padding-top: 200px;">
+        <center>الحقوق محفوظة
+          <br> Copyright @ Global Warning 2020
+          <br>
+        </center>
+      </footer>
+</body>
+</html>
